@@ -9,6 +9,7 @@ public partial class Odjava : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        ass
         string sID = Request.QueryString["SessionID"];
         lblIme.Text =(string) Session["korisnik"];
         lblSID.Text = sID;
